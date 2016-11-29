@@ -81,6 +81,8 @@ open class SAConfettiView: UIView {
             image = UIImage(asset: Asset.star)
         case .diamond:
             image = UIImage(asset: Asset.diamond)
+        default:
+            image = UIImage(asset: Asset.confetti)
         }
         return image
     }

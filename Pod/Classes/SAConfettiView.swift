@@ -81,7 +81,7 @@ open class SAConfettiView: UIView {
             image = UIImage(asset: Asset.star)
         case .diamond:
             image = UIImage(asset: Asset.diamond)
-
+        }
         return image
     }
 
